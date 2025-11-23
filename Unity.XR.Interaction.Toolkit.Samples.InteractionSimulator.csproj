@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{CC9693B8-5C3B-9C3C-635D-8760C453BA41}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>

@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{3EF3A503-5B18-6835-F482-DD12F89A873F}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Crest</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>

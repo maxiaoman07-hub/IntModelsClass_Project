@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{E379598C-0151-29B0-E7F5-377FDC725CA0}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Unity.XR.Hands.Samples.VisualizerSample</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>

@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace>UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor</RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{F3FE1AC0-02BA-A0E1-0C03-8A09849D1326}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>

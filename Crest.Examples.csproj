@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{576B0666-BA6F-9826-5105-A771560A8953}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Crest.Examples</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -1139,6 +1143,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <ProjectReference Include="Crest.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
@@ -1151,5 +1156,11 @@
     <ProjectCapability Remove="ReferenceManagerCOM" />
     <ProjectCapability Remove="AssemblyReferences" />
     <ProjectCapability Remove="ReferenceManagerAssemblies" />
+=======
+    <ProjectReference Include="Crest.csproj">
+      <Project>{3EF3A503-5B18-6835-F482-DD12F89A873F}</Project>
+      <Name>Crest</Name>
+    </ProjectReference>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

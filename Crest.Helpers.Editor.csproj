@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{99B2504C-F42F-9BDC-3FE0-71E2799CCA41}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Crest.Helpers.Editor</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -1140,6 +1144,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <ProjectReference Include="Crest.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
@@ -1152,5 +1157,11 @@
     <ProjectCapability Remove="ReferenceManagerCOM" />
     <ProjectCapability Remove="AssemblyReferences" />
     <ProjectCapability Remove="ReferenceManagerAssemblies" />
+=======
+    <ProjectReference Include="Crest.csproj">
+      <Project>{3EF3A503-5B18-6835-F482-DD12F89A873F}</Project>
+      <Name>Crest</Name>
+    </ProjectReference>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

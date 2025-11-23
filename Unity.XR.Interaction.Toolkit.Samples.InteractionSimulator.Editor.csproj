@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace>UnityEditor.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor</RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{70645C84-2F8A-7C9F-C8B4-53DD68F907D9}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>

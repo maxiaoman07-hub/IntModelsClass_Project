@@ -16,6 +16,10 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
+=======
+    <ProjectGuid>{AB61861C-28F3-CCEE-4AFF-7999612D3959}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -48,6 +52,7 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/DynamicShadowSettings.cs" />
     <Compile Include="Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/LerpControlledBob.cs" />
     <Compile Include="Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Characters/Scripts/FirstPersonController.cs" />
@@ -106,6 +111,68 @@
     <Compile Include="Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
     <Compile Include="Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/TimedObjectDestructor.cs" />
     <Compile Include="Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/CurveControlledBob.cs" />
+=======
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Characters\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Sardine\Scripts\IwasiOcean.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Scripts\XROriginRightHandMovement.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\GlowScript1.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Sardine\Scripts\SardineUserController.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\XRPLAYER.cs" />
+    <Compile Include="Assets\Sardine\Scripts\IwasiMove.cs" />
+    <Compile Include="Assets\Scripts\Flock.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\Sardine\Scripts\IwasiRigid.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\Sardine\Scripts\SardineBoidScript.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Scripts\SwitchMoveCorridor2.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Scripts\SwitchMoveCorridor1.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Contents\Scripts\LEDNode.cs" />
+    <Compile Include="Assets\Scripts\FishMove.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Sardine\Scripts\SardineBoidsController.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\Scripts\PulsationGlow.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Characters\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\SimplePlayerController.cs" />
+    <Compile Include="Assets\Scripts\FlockUnit.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\MouseLook.cs" />
+    <Compile Include="Assets\Sardine\Scripts\SardineCharacter.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\Scripts\fishmoveupdown.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\Sardine\Scripts\SardineCameraScript.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Tomerinio\LEDLightBlocks\Example Scene\Standard Assets\Utility\CurveControlledBob.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Crest/Crest/Shaders/Resources/DynWavesSphereWaterInteraction.shader" />
@@ -1537,6 +1604,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.csproj" />
@@ -1559,5 +1627,51 @@
     <ProjectCapability Remove="ReferenceManagerCOM" />
     <ProjectCapability Remove="AssemblyReferences" />
     <ProjectCapability Remove="ReferenceManagerAssemblies" />
+=======
+    <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
+      <Project>{E379598C-0151-29B0-E7F5-377FDC725CA0}</Project>
+      <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
+      <Project>{F3FE1AC0-02BA-A0E1-0C03-8A09849D1326}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.csproj">
+      <Project>{70645C84-2F8A-7C9F-C8B4-53DD68F907D9}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{180C8643-8229-876B-5737-33541F0D079A}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
+      <Project>{13C2D680-534A-2B2A-240F-08F1ED07071C}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crest.csproj">
+      <Project>{3EF3A503-5B18-6835-F482-DD12F89A873F}</Project>
+      <Name>Crest</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{62BF2F45-FF60-7834-6ABF-26AE95601B54}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.csproj">
+      <Project>{CC9693B8-5C3B-9C3C-635D-8760C453BA41}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crest.Examples.csproj">
+      <Project>{576B0666-BA6F-9826-5105-A771560A8953}</Project>
+      <Name>Crest.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
+      <Project>{D275D8F9-2087-5EEC-99A1-6FB03F2268D3}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crest.Helpers.Editor.csproj">
+      <Project>{99B2504C-F42F-9BDC-3FE0-71E2799CCA41}</Project>
+      <Name>Crest.Helpers.Editor</Name>
+    </ProjectReference>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>
