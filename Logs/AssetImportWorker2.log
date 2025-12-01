@@ -1,40 +1,35 @@
-Unity Editor version:    6000.2.6f2 (4a4dcaec6541)
-Branch:                  6000.2/respin/6000.2.6f2-cc51a95c03
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 26.1 (Build 25B78)
-Darwin version:          25.1.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        16384 MB
-Date:                    2025-11-22T22:22:30Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-pinarunsalan" at "2025-11-22T22:22:30.849848Z"
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'zh' Physical Memory: 16321 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-01T06:19:52Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-DiegoShan" at "2025-12-01T06:19:52.3783372Z"
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity 6000.2.6f2\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-/Users/pinarunsalan/Desktop/Interaction Models/VR Project/DeepSeaAdventure/IntModelsClass_Project
+E:/UnityProject/IntModelsClass_Project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50762
+8784
 -licensingIpc
-LicenseClient-pinarunsalan
+LicenseClient-DiegoShan
 -job-worker-count
 3
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name AssetImport
-Successfully changed project path to: /Users/pinarunsalan/Desktop/Interaction Models/VR Project/DeepSeaAdventure/IntModelsClass_Project
-/Users/pinarunsalan/Desktop/Interaction Models/VR Project/DeepSeaAdventure/IntModelsClass_Project
+-name
+AssetImport
+Successfully changed project path to: E:/UnityProject/IntModelsClass_Project
+E:/UnityProject/IntModelsClass_Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -70,16 +65,27 @@ Successfully changed project path to: /Users/pinarunsalan/Desktop/Interaction Mo
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8460017792]  Target information:
+Player connection [24436]  Target information:
 
-Player connection [8460017792]  * "[IP] 192.168.1.129 [Port] 0 [Flags] 2 [Guid] 2351863597 [EditorId] 2351863597 [Version] 1048832 [Id] OSXEditor(0,Pinars-Mac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [24436]  * "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2684914857 [EditorId] 2684914857 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L9BSVGM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8460017792] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8460017792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24436] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5676, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              c85bb83313514d78a8fce1e843a1e9b8
+  Correlation Id:          66db8cf13977ec9f17cbfce7bbe951b3
+  External correlation Id: 2579761061781607098
+  Machine Id:              WVGM7NWZElScEOmVFzpjYXUemDg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-DiegoShan" (connect: 0.00s, validation: 0.01s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-DiegoShan-notifications" at "2025-12-01T06:19:52.5156859Z"
+[Licensing::Module] Licensing Background thread has ended after 0.14s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -87,94 +93,85 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 33.59 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 3.57 ms.
+Refreshing native plugins compatible for Editor in 49.31 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/pinarunsalan/Desktop/Interaction Models/VR Project/DeepSeaAdventure/IntModelsClass_Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProject/IntModelsClass_Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
- preferred device: Apple M1 (high power)
-Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
-Mac GPU Family: 2
-Apple GPU Family: 7
-MSL Version: 3.0
-Has Float MSAA: 1
-Has Float Filtering: 1
-ReadWrite Texture Tier: 2
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:          NVIDIA
+    VRAM:            7987 MB
+    App VRAM Budget: 7219 MB
+    Driver:          32.0.15.6094
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56702
+Mono path[0] = 'C:/Program Files/Unity 6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000307 seconds.
-- Loaded All Assemblies, in  0.319 seconds
-Native extension for OSXStandalone target not found
+Register platform support module: C:/Program Files/Unity 6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005143 seconds.
+- Loaded All Assemblies, in  1.249 seconds
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.356 seconds
-Domain Reload Profiling: 676ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  1.164 seconds
+Domain Reload Profiling: 2408ms
+	BeginReloadAssembly (385ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (107ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (366ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (587ms)
+			TypeCache.Refresh (583ms)
+				TypeCache.ScanAssembly (534ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (357ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1165ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (305ms)
+		SetupLoadedEditorAssemblies (1055ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (116ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			InitializePlatformSupportModulesInManaged (153ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (312ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 12615, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.3+a4e98f1
-  Session Id:              10784835dd3b436a8c6275b894cedd58
-  Correlation Id:          514a7615a48950c7c835fea340bb00c1
-  External correlation Id: 1100541255059766418
-  Machine Id:              eC2r3VdTvG/PxGBEtKt/cuPguT8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-pinarunsalan" (connect: 0.00s, validation: 0.00s, handshake: 1.59s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-pinarunsalan-notifications" at "2025-11-22T22:22:32.444433Z"
-[Licensing::Module] Licensing Background thread has ended after 1.59s
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 6872784192809-UnityPersXXXX
+  Id: F4-KWZ4-G26D-4ZWG-V9T2-XXXX
   Product: Unity Personal
+  Type: ULF
+  Expiration: 2025-12-11T07:17:59Z
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.643 seconds
+- Loaded All Assemblies, in  2.758 seconds
 'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.43 ms, found 11 plugins.
-Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 19.08 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -188,6 +185,23 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <59bd7c40c082431db25e1e728ab62789>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <59bd7c40c082431db25e1e728ab62789>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <8081513dc2364383b8289d30d2169b2e>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -195,39 +209,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.838 seconds
-Domain Reload Profiling: 1482ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  2.901 seconds
+Domain Reload Profiling: 5646ms
+	BeginReloadAssembly (550ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (478ms)
-		LoadAssemblies (290ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (1934ms)
+		LoadAssemblies (1306ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (151ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (839ms)
+		AnalyzeDomain (880ms)
+			TypeCache.Refresh (643ms)
+				TypeCache.ScanAssembly (604ms)
+			BuildScriptInfoCaches (188ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (2901ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (741ms)
+		SetupLoadedEditorAssemblies (2457ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (477ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (24ms)
+			BeforeProcessingInitializeOnLoad (690ms)
+			ProcessInitializeOnLoadAttributes (1258ms)
+			ProcessInitializeOnLoadMethodAttributes (460ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
 WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -240,1109 +254,35 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launching external process: /Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.63 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7867 unused Assets / (7.0 MB). Loaded Objects now: 8486.
-Memory consumption went from 153.9 MB to 146.9 MB.
-Total: 9.330375 ms (FindLiveObjects: 0.557959 ms CreateObjectMapping: 0.408750 ms MarkObjects: 5.253167 ms  DeleteObjects: 3.109334 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 31.21 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7867 unused Assets / (9.5 MB). Loaded Objects now: 8494.
+Memory consumption went from 160.6 MB to 151.1 MB.
+Total: 50.146100 ms (FindLiveObjects: 1.552300 ms CreateObjectMapping: 6.376000 ms MarkObjects: 30.121300 ms  DeleteObjects: 12.094500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26946.160175 seconds.
-  path: Assets/Assets_SeaStuff/lowpoly_coral_pack.glb
-  artifactKey: Guid(ef5c47866412983499076c91283bb5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/lowpoly_coral_pack.glb using Guid(ef5c47866412983499076c91283bb5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '226d1b615542a8759c8e9710750c0b33') in 1.467902125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/AffordanceThemes/PinchPointBlendShape.asset
-  artifactKey: Guid(fbf5c74e21f572740881de5634f1ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/AffordanceThemes/PinchPointBlendShape.asset using Guid(fbf5c74e21f572740881de5634f1ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4589cc0498369a0712f587e16dc18da') in 0.002663292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Crest/Crest-Examples/BoatDev/Materials/AddBumpsToWater.mat
-  artifactKey: Guid(eeaa0c078e2f0c343a9857a37a43ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/AddBumpsToWater.mat using Guid(eeaa0c078e2f0c343a9857a37a43ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cdc377cada3829f87b1a8008f88c033') in 0.036579334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Crest/Crest/Shaders/OceanInputs/GerstnerShared.hlsl
-  artifactKey: Guid(313009d7bc5acd440a8e10991b69a9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Shaders/OceanInputs/GerstnerShared.hlsl using Guid(313009d7bc5acd440a8e10991b69a9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04ade3fdebd96481cc8aa512c770d3c7') in 0.000844208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Assets_SeaStuff/cc0___weedy_stingfish_s._cirrosa.glb
-  artifactKey: Guid(083f59af7160e004aaefb937ab1a406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/cc0___weedy_stingfish_s._cirrosa.glb using Guid(083f59af7160e004aaefb937ab1a406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8cbad8254ffa5922631951d3863072e') in 0.196842208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
-  artifactKey: Guid(5477a2d94558ebe44aaaaba4a42bf1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(5477a2d94558ebe44aaaaba4a42bf1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ed2ae5ef33b0e1237de888223130109') in 0.005545458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.011574 seconds.
-  path: Assets/Crest/Crest/Textures/WaveNormals/WaveNormals.png
-  artifactKey: Guid(800e061692ff7a84e887f439d3364410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Textures/WaveNormals/WaveNormals.png using Guid(800e061692ff7a84e887f439d3364410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9da967986d7c047d58c6d64ca71822c1') in 0.049488041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.472848 seconds.
-  path: Assets/Crest/Crest/Shaders/OceanConstants.hlsl
-  artifactKey: Guid(eeb83495d2ca666479c5dd1661164312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Shaders/OceanConstants.hlsl using Guid(eeb83495d2ca666479c5dd1661164312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb8702db17fa04c32da52815939dea1f') in 0.000625542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.639714 seconds.
-  path: Assets/Crest/Crest/Shaders/OceanEmission.hlsl
-  artifactKey: Guid(2ed9bfada3d64bc4b9d213e28d0904db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Shaders/OceanEmission.hlsl using Guid(2ed9bfada3d64bc4b9d213e28d0904db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d9afe117ea9c1d03744bdfe5414f4a8') in 0.000656167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.807104 seconds.
-  path: Assets/Crest/lazulight_-_coral.glb
-  artifactKey: Guid(7f4722a798033a944b7ff6b2c421fe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/lazulight_-_coral.glb using Guid(7f4722a798033a944b7ff6b2c421fe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efd83411bdb43d4e0690de53a227c867') in 0.07936025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.502214 seconds.
-  path: Assets/underwater_terrain_-_agisoftnaturechallenge (1).glb
-  artifactKey: Guid(c2c14c8d213a8a84984b280651815622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/underwater_terrain_-_agisoftnaturechallenge (1).glb using Guid(c2c14c8d213a8a84984b280651815622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4dbe35f5b455615fef9777345976c5b') in 0.143074042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.940085 seconds.
-  path: Assets/starfish__sarcophyton_-_agisoftnaturechallenge (1).glb
-  artifactKey: Guid(b1656677931fd144a87601cf6738dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/starfish__sarcophyton_-_agisoftnaturechallenge (1).glb using Guid(b1656677931fd144a87601cf6738dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ad056bb103bd765b19ea71b0d70365') in 0.121970792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 579.541821 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat
-  artifactKey: Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat using Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2119d3de2b6b3f368437d0b168f39d17') in 0.0192885 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.485644 seconds.
-  path: Assets/3D Shark pack/3D shark - Character Pack/Modeling/shark_modeling.FBX
-  artifactKey: Guid(d31a15e4aa626c949b4051163d253f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Shark pack/3D shark - Character Pack/Modeling/shark_modeling.FBX using Guid(d31a15e4aa626c949b4051163d253f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ecc590f2c15a38658889cbf25130b5b') in 0.069325125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 126
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Crest/Crest/Materials/OceanInputs/AlbedoColor.mat
-  artifactKey: Guid(80f27b57f26a14e1d98b158bef86a27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/OceanInputs/AlbedoColor.mat using Guid(80f27b57f26a14e1d98b158bef86a27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd38dc6fa9e52877fb00c8f3ce3db3075') in 0.021615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Sardine/Materials/BakedSardine.mat
-  artifactKey: Guid(9c40fbd36c3434b2abfffac3dc74c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sardine/Materials/BakedSardine.mat using Guid(9c40fbd36c3434b2abfffac3dc74c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4db04e02b2e9780b6a5a4f1bcf1c3d3b') in 0.490580666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/XR Hands/1.6.1/HandVisualizer/Materials/Blue.mat
-  artifactKey: Guid(7b26add94f09dc44fb811013f007a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.6.1/HandVisualizer/Materials/Blue.mat using Guid(7b26add94f09dc44fb811013f007a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5cd4580e4e663d7f034446ab202515c') in 0.006441375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Orbs/Material/Plane Mat/Black_Mat.mat
-  artifactKey: Guid(0fda1d92939deb84db9351e8a65a9c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Plane Mat/Black_Mat.mat using Guid(0fda1d92939deb84db9351e8a65a9c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c389bcfa925458c2e1f1432ac657374') in 0.004791833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/seaShell/demoScene/demo_urp/bentBackground.mat
-  artifactKey: Guid(90bc1807aa2b54a4091cf5b659b390e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seaShell/demoScene/demo_urp/bentBackground.mat using Guid(90bc1807aa2b54a4091cf5b659b390e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9bc20f958ba3f10e299e6c43efd0730') in 0.01787075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Crest/Crest-Examples/Shared/Materials/AnimWavesWaveParticle.mat
-  artifactKey: Guid(fe035aa88b517a040a7544e2e217c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Shared/Materials/AnimWavesWaveParticle.mat using Guid(fe035aa88b517a040a7544e2e217c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2a0647738fb4567c6d252936785c978') in 0.014003458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Crest/Crest-Examples/BoatDev/Materials/AnimWavesSetHeightToGeo.mat
-  artifactKey: Guid(da39a2b2845ff5346adadb9752effc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/AnimWavesSetHeightToGeo.mat using Guid(da39a2b2845ff5346adadb9752effc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Set Water Height Using Geometry" requires a ComputeBuffer at index 3 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: '0266b5f7bf33631824c1230c52ae0127') in 0.01863575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/seaShell/demoScene/demo_hdrp/bentBackground.mat
-  artifactKey: Guid(9be327c5cc8b9744d93233e4ee2a54f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seaShell/demoScene/demo_hdrp/bentBackground.mat using Guid(9be327c5cc8b9744d93233e4ee2a54f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca92baf150786c1b49e7488ebce4a937') in 0.005320417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Backup-Ocean-Underwater 1.mat
-  artifactKey: Guid(ac5e974102f6f0240aede5f9331b9cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Backup-Ocean-Underwater 1.mat using Guid(ac5e974102f6f0240aede5f9331b9cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77ea772e80052a5ff7f000f1cd4a19fa') in 0.289136084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 189.515179 seconds.
-  path: Assets/Ocean-Underwater 1.mat
-  artifactKey: Guid(1463b1c978919a140af9d54c9c57677e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ocean-Underwater 1.mat using Guid(1463b1c978919a140af9d54c9c57677e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e3db9ba511b9d01c30b47230563121d') in 0.199346833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Backup-Ocean-Underwater 1.mat
-  artifactKey: Guid(ac5e974102f6f0240aede5f9331b9cfe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Backup-Ocean-Underwater 1.mat using Guid(ac5e974102f6f0240aede5f9331b9cfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cde17f46249ff5d7118981dda610533') in 0.005191541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.282562 seconds.
-  path: Assets/Sardine/Materials/BlueSardine.mat
-  artifactKey: Guid(4cf089456002947f5a69b1a5967819c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sardine/Materials/BlueSardine.mat using Guid(4cf089456002947f5a69b1a5967819c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e1a29fbeaf2e99591f10017a8a129db') in 0.009718375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077210 seconds.
-  path: Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoat.obj
-  artifactKey: Guid(62ccde94e774dba4c8620e847d94f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoat.obj using Guid(62ccde94e774dba4c8620e847d94f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f034540686abb99ac7d94ec9425435') in 0.025401916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets_SeaStuff/new/model_47a_-_loggerhead_sea_turtle.glb
-  artifactKey: Guid(edf41370b93277a47bc1f26c4ba72f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/new/model_47a_-_loggerhead_sea_turtle.glb using Guid(edf41370b93277a47bc1f26c4ba72f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f70cabbbf03a2a9c493b578c9ead9aa') in 1.104065417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.816160 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Chrome.mat
-  artifactKey: Guid(2edb876ca20f6ea40b4ebb61f96f1df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Chrome.mat using Guid(2edb876ca20f6ea40b4ebb61f96f1df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f1b2742906b73c4d86716d350c42c78') in 0.005774583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050077 seconds.
-  path: Assets/Assets_SeaStuff/new/sea_slug__chromodoris_annae.glb
-  artifactKey: Guid(7c7e2b7333d27e840958296633f3682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/new/sea_slug__chromodoris_annae.glb using Guid(7c7e2b7333d27e840958296633f3682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1eeb36535bf9f6c8552fcbea4abff80') in 0.545821083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 947
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.292657 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat
-  artifactKey: Guid(842f1b88643f1bb458ba6243088e344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat using Guid(842f1b88643f1bb458ba6243088e344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '572c95fd0970623d1f44b61faf46ee8d') in 0.399509916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Materials/Controller_Grey.mat
-  artifactKey: Guid(99685157b02e4d446bbecb015645e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Materials/Controller_Grey.mat using Guid(99685157b02e4d446bbecb015645e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '413500ba3b74fb32d986f704439b1151') in 0.124061417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.834185 seconds.
-  path: Assets/Crest/Crest-Examples/Whirlpool/Materials/DepositFoamTex.mat
-  artifactKey: Guid(e0ac8792802c1f046b3d1f3f6c2b4170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Whirlpool/Materials/DepositFoamTex.mat using Guid(e0ac8792802c1f046b3d1f3f6c2b4170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0948bdcb71a1fafe75f0f62d9e5c8a5b') in 0.014703792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.521178 seconds.
-  path: Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesProceduralInteraction.mat
-  artifactKey: Guid(b0bf1df974228684ebe00bfe0f45a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesProceduralInteraction.mat using Guid(b0bf1df974228684ebe00bfe0f45a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Inputs/Dynamic Waves/Sphere-Water Interaction" requires a ComputeBuffer at index 4 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: '1d9159d89810d49cda000464667e6b6e') in 0.014594208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.347641 seconds.
-  path: Assets/Orbs/Material/ORB-1-2/Electric.mat
-  artifactKey: Guid(e987b9e3b62a56042a2a866114909219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/ORB-1-2/Electric.mat using Guid(e987b9e3b62a56042a2a866114909219) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3ced40822f68dd8a79aefa43a894e14') in 0.005687625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070149 seconds.
-  path: Assets/Orbs/Material/Orb-9-2/Electric 2.mat
-  artifactKey: Guid(528667bbc520fac47a46a6bccb8e7856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-9-2/Electric 2.mat using Guid(528667bbc520fac47a46a6bccb8e7856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2497cab48ec8dbc24ada4d5f5de5d11') in 0.014477208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025722 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoCrestLogo.mat
-  artifactKey: Guid(e40b4c328aeec4f43943883ee9c70ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoCrestLogo.mat using Guid(e40b4c328aeec4f43943883ee9c70ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be77e68854c15bc204edb87c05da80af') in 0.005677208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049697 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_DepthOnly.mat
-  artifactKey: Guid(1187e6d1d3c949846a5535a8778eeb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_DepthOnly.mat using Guid(1187e6d1d3c949846a5535a8778eeb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a209193b86e7cc01e051dd8b23c74a') in 0.010830625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033979 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideOne.mat
-  artifactKey: Guid(99f41ed341ffedc4181a46734c9fa3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideOne.mat using Guid(99f41ed341ffedc4181a46734c9fa3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11cb21eb9dbccfb1814d4a8d1a35678') in 0.0107815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073050 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_GerstnerPatchFeathered.mat
-  artifactKey: Guid(884e4c35b797c41188d89df3bbae1502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_GerstnerPatchFeathered.mat using Guid(884e4c35b797c41188d89df3bbae1502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bf97dab813ab0210c8e3c541b3544fd') in 0.077854625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096941 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedDepth.mat
-  artifactKey: Guid(279f4fd3ddf8b437e9347617b80ca28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedDepth.mat using Guid(279f4fd3ddf8b437e9347617b80ca28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f973f02c090b1142bc5af8ff0331989b') in 0.0120915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.948046 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedNavalMine.mat
-  artifactKey: Guid(1007d547077f34cd7a8069a7f45c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedNavalMine.mat using Guid(1007d547077f34cd7a8069a7f45c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4e01e9a11b90cec0fef9c9a270857ce') in 0.383200084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_RippleReflections.mat
-  artifactKey: Guid(0fe3ac90d958341e0808dc48e7939b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_RippleReflections.mat using Guid(0fe3ac90d958341e0808dc48e7939b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Inputs/Dynamic Waves/Add Bump" requires a ComputeBuffer at index 2 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: 'b516fe2f22bd7df521b912405a693a00') in 0.014525375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_Ripple.mat
-  artifactKey: Guid(adfdf8f9cc92c4cc8bfee81a6385c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_Ripple.mat using Guid(adfdf8f9cc92c4cc8bfee81a6385c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c27a4ad8d03debe4ef02f480114ebed3') in 0.005003084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskFillWhite.mat
-  artifactKey: Guid(56552984e48174ca1877e19cb7827a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskFillWhite.mat using Guid(56552984e48174ca1877e19cb7827a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3efce7fd22248a4960b725c8a9792970') in 0.344920083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.096821 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_WavesScaleByFactor.mat
-  artifactKey: Guid(246582b609c364fe1b58409fc147e04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_WavesScaleByFactor.mat using Guid(246582b609c364fe1b58409fc147e04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aeb4eb067f120c4ffa89b610d0fecf9') in 0.045427916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108740 seconds.
-  path: Assets/Assets_SeaStuff/fan_coral_med.glb
-  artifactKey: Guid(7ca687e62219f874aa5212504dd307d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/fan_coral_med.glb using Guid(7ca687e62219f874aa5212504dd307d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa339496d2b9193c545571d41c09fbc6') in 0.103604125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.190037 seconds.
-  path: Assets/Crest/Crest/Materials/OceanInputs/FoamOverride.mat
-  artifactKey: Guid(68d36d57521f647dfbf893bb13362da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/OceanInputs/FoamOverride.mat using Guid(68d36d57521f647dfbf893bb13362da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '418181799bcaa882c3224713876f1274') in 0.005667958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049721 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Materials/FresnelHighlight.mat
-  artifactKey: Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Materials/FresnelHighlight.mat using Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e26894b60437192329e83241ae6ba94') in 0.302313709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Orbs/Material/ORB-1-1/Gllow.mat
-  artifactKey: Guid(1f7fa9dc1fa0f4042baf263047cd9b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/ORB-1-1/Gllow.mat using Guid(1f7fa9dc1fa0f4042baf263047cd9b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52b0760d115504604af6b29859d7ae0d') in 0.006273709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Crest/Crest-Examples/Main/Materials/GerstnerPatch.mat
-  artifactKey: Guid(81bec1ba3a0c4bf428a4c1cc2d71a02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Main/Materials/GerstnerPatch.mat using Guid(81bec1ba3a0c4bf428a4c1cc2d71a02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a7a53614b64589174efcbe62b7eddb') in 0.01341925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Orbs/Material/ORB-6-1/Glow.mat
-  artifactKey: Guid(1e5ef9e1dd81b054e9cb27711dee3f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/ORB-6-1/Glow.mat using Guid(1e5ef9e1dd81b054e9cb27711dee3f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bbaabc0af54fb808bbee3a368a01b66') in 0.007612167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.463262 seconds.
-  path: Assets/Orbs/Material/Orb-5-2/Glow.mat
-  artifactKey: Guid(b17b517faa1ca1d45a85c42208f064b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-5-2/Glow.mat using Guid(b17b517faa1ca1d45a85c42208f064b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1874ef924fcbcdded573a53c41f6b40b') in 0.0064145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113792 seconds.
-  path: Assets/Orbs/Material/Orb-4-2/Glow.mat
-  artifactKey: Guid(9363e6799af73c14b8a2de81879fa0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-4-2/Glow.mat using Guid(9363e6799af73c14b8a2de81879fa0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bd21d6479290b8d35b372d55d2c8d9a') in 0.004848791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067297 seconds.
-  path: Assets/Orbs/Material/Orb-2-2/Glow.mat
-  artifactKey: Guid(293bb22a3ae1c6e49b0803668677a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-2-2/Glow.mat using Guid(293bb22a3ae1c6e49b0803668677a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0d53e32e7409a99b6ec1dcdae6cfdb2') in 0.005268583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037573 seconds.
-  path: Assets/Orbs/Material/Orb-5-1/Glow.mat
-  artifactKey: Guid(197cb05bac7ed0c4ea87e9315e9c8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-5-1/Glow.mat using Guid(197cb05bac7ed0c4ea87e9315e9c8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd438894f26b2620c2f82ef868481c3e7') in 0.005039209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049774 seconds.
-  path: Assets/Orbs/Material/Orb-8-1/GlowCircleMat.mat
-  artifactKey: Guid(d4e51978e4fbbab4fbde95041952b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-8-1/GlowCircleMat.mat using Guid(d4e51978e4fbbab4fbde95041952b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b91116601e3900e5d6c6ca9d196a9a41') in 0.006555084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.201360 seconds.
-  path: Assets/Assets_SeaStuff/guerrero_aqua_glass_2019.glb
-  artifactKey: Guid(70dbd045ec5142a42b8f2095a53888e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/guerrero_aqua_glass_2019.glb using Guid(70dbd045ec5142a42b8f2095a53888e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e266305bba8c731e22e483fb29c7b90a') in 0.046744667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.021644 seconds.
-  path: Assets/Assets_SeaStuff/jelly_fish.glb
-  artifactKey: Guid(83030be86ab22644295c40b54dde2eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/jelly_fish.glb using Guid(83030be86ab22644295c40b54dde2eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '981ef87dfb714f6254dadf6d314b8926') in 0.272938625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020331 seconds.
-  path: Assets/Orbs/Material/Orb-4-1/InnerPat.mat
-  artifactKey: Guid(ec104f634561259419aca1b3c6945d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-4-1/InnerPat.mat using Guid(ec104f634561259419aca1b3c6945d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0e43c4f38a507b86dca997d4d8db57a') in 0.005166083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.223855 seconds.
-  path: Assets/Orbs/Material/Orb-2-1/InnerPat.mat
-  artifactKey: Guid(515f2541353200d4a922bf6bdf3e15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-2-1/InnerPat.mat using Guid(515f2541353200d4a922bf6bdf3e15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7573812b39462b019266db9821f347a') in 0.005007584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069473 seconds.
-  path: Assets/Orbs/Material/Orb-3-1/InnerPat.mat
-  artifactKey: Guid(44b0fdbfaf96f6f49a3d3fe091e7e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-3-1/InnerPat.mat using Guid(44b0fdbfaf96f6f49a3d3fe091e7e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebcb2c8d232a1055d8029defbb0e81e3') in 0.005417959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050497 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Materials/Interactable.mat
-  artifactKey: Guid(76618f7490c40334fa7b685859587d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Materials/Interactable.mat using Guid(76618f7490c40334fa7b685859587d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30ba4161a97773ad7ed8fdb22f06aec') in 0.0066675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132150 seconds.
-  path: Assets/Crest/Crest/Materials/OceanInputs/Resources/Internal_SphereWaterInteraction.mat
-  artifactKey: Guid(e49035d001fa14e57b6e6b206460366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/OceanInputs/Resources/Internal_SphereWaterInteraction.mat using Guid(e49035d001fa14e57b6e6b206460366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Inputs/Dynamic Waves/Sphere-Water Interaction" requires a ComputeBuffer at index 5 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: 'ffb3274ed912f4be10865c181d0b1ac5') in 0.079852667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059116 seconds.
-  path: Assets/Assets_SeaStuff/diver.glb
-  artifactKey: Guid(b6cc80c9572a8e24297edaee435da729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/diver.glb using Guid(b6cc80c9572a8e24297edaee435da729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0145ac336c12b3a0a89f6e88283e4640') in 0.152791667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.242539 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx
-  artifactKey: Guid(171affcd2d7ddf545ae966acd2de57c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx using Guid(171affcd2d7ddf545ae966acd2de57c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41b4d91cdb2f7c103f95e5bc9c9f86f7') in 0.037238375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.133988 seconds.
-  path: Assets/Sat Productions/G-01/Street Lights Pack 01/Materials/Light.mat
-  artifactKey: Guid(08b9f54bed367d94c97fdd4f491428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sat Productions/G-01/Street Lights Pack 01/Materials/Light.mat using Guid(08b9f54bed367d94c97fdd4f491428e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ff87256045c059f39f7b005a47988a7') in 0.222127042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.626097 seconds.
-  path: Assets/CGSoul/Emperor Angelfish/Art/Materials/M_Emperor_body.mat
-  artifactKey: Guid(1b812e4b69fe95b45bcd46b936b25112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CGSoul/Emperor Angelfish/Art/Materials/M_Emperor_body.mat using Guid(1b812e4b69fe95b45bcd46b936b25112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f16b8f6d89bd359837c3f219f996288') in 0.327546166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets_SeaStuff/new/fish (1).glb
-  artifactKey: Guid(88b88eb2c920fd846aca54505e5c8469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/new/fish (1).glb using Guid(88b88eb2c920fd846aca54505e5c8469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cebbc1405503375e650305521d55450a') in 0.01811875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets_SeaStuff/9026105871bd49069936b6ac569e5c85.glb
-  artifactKey: Guid(ec56c176900a1fa4ebc2ea25d034ab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/9026105871bd49069936b6ac569e5c85.glb using Guid(ec56c176900a1fa4ebc2ea25d034ab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df35849c663d5db417e4dcd33e02dcc5') in 0.210942 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets_SeaStuff/cc0__boring_clam_tridacna_crocea.glb
-  artifactKey: Guid(345d4ca973f97574e99e89ff0f4770f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/cc0__boring_clam_tridacna_crocea.glb using Guid(345d4ca973f97574e99e89ff0f4770f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96608d670fc2a1984c3a3831b77b8e73') in 0.180693708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 117
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.393109 seconds.
-  path: Assets/Assets_SeaStuff/new/chromaflare_reef_-_coral.glb
-  artifactKey: Guid(46eba6b8f757ad84f8d90276bc2fde25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/new/chromaflare_reef_-_coral.glb using Guid(46eba6b8f757ad84f8d90276bc2fde25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac387e14900e0a13841bfd457117f062') in 0.244927708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 152
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.739732 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Metal_B.mat
-  artifactKey: Guid(e934d7f734e9cc7468e5fd7655a8e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Metal_B.mat using Guid(e934d7f734e9cc7468e5fd7655a8e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0463b297eaa9bd43684af8af4fce4fb6') in 0.004680375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018892 seconds.
-  path: Assets/Assets_SeaStuff/SM_Starfish_01_LOD2.fbx
-  artifactKey: Guid(9a061692a0c8fca4eae1ac4b30ff9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/SM_Starfish_01_LOD2.fbx using Guid(9a061692a0c8fca4eae1ac4b30ff9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '166ab068f2ed08e4ecff08b913796c67') in 0.028251458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028525 seconds.
-  path: Assets/Assets_SeaStuff/new/SM_Starfish_01_LOD2.fbx
-  artifactKey: Guid(af6b4161be53d934999655e234ed8498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/new/SM_Starfish_01_LOD2.fbx using Guid(af6b4161be53d934999655e234ed8498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2551009715824f82241c089e4ee0abb') in 0.011173041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.225968 seconds.
-  path: Assets/Crest/Crest-Examples/Main/Materials/NavalMine.mat
-  artifactKey: Guid(8439bb68f15c44c8db3c54d02367d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Main/Materials/NavalMine.mat using Guid(8439bb68f15c44c8db3c54d02367d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfb5dbd8b117dd2f1ba3ed993e9e5960') in 0.082078166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.351181 seconds.
-  path: Assets/Crest/Crest/Materials/New Material.mat
-  artifactKey: Guid(f106f4f90bb6b754aa5c6a25c7b39939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/New Material.mat using Guid(f106f4f90bb6b754aa5c6a25c7b39939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a1740f4f8415f678f8c669465247af1') in 0.005339042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083103 seconds.
-  path: Assets/Orbs/Material/ORB-6-1/New Material 1.mat
-  artifactKey: Guid(105e03d5f2508a5478cd1104d3847265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/ORB-6-1/New Material 1.mat using Guid(105e03d5f2508a5478cd1104d3847265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f870cc208705ff010629ce4feda55334') in 0.006184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068956 seconds.
-  path: Assets/Orbs/Material/Orb-7-2/New Material 2.mat
-  artifactKey: Guid(9357a1f7677ca904e91ddd5493983c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-7-2/New Material 2.mat using Guid(9357a1f7677ca904e91ddd5493983c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45d5fab64e171d94764277dbf19a94e9') in 0.005793375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066003 seconds.
-  path: Assets/Assets_SeaStuff/snail_shell_-_lowpoly.glb
-  artifactKey: Guid(d79b5534db7069a4c8c40d50d192e02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_SeaStuff/snail_shell_-_lowpoly.glb using Guid(d79b5534db7069a4c8c40d50d192e02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '988e9fcb5fc3fca807afbc075cdd5b97') in 0.325570375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
+  Time since last request: 8695.217282 seconds.
   path: Assets/Ocean-Underwater.mat
   artifactKey: Guid(b58c37229b03c9c49846982cbfe9543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ocean-Underwater.mat using Guid(b58c37229b03c9c49846982cbfe9543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc8422b50229687f5de6d90e95319d7f') in 0.006931209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Crest/Crest/Materials/Ocean-Underwater.mat
-  artifactKey: Guid(ef94c26e44a36e24a9dcbc5995a2bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/Ocean-Underwater.mat using Guid(ef94c26e44a36e24a9dcbc5995a2bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Ocean" requires a ComputeBuffer at index 5 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: '7df57746324e2880ebb6f588783f69d0') in 0.507721375 seconds
+Start importing Assets/Ocean-Underwater.mat using Guid(b58c37229b03c9c49846982cbfe9543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c70838912c537ed19527a7f5b445e1f') in 0.7687374 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019128 seconds.
-  path: Assets/Ocean-Underwater4.mat
-  artifactKey: Guid(d435885bd0f83f04e88a247dba99a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ocean-Underwater4.mat using Guid(d435885bd0f83f04e88a247dba99a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05abac361dac3a4a57e8b2e30559224b') in 0.006228708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046656 seconds.
-  path: Assets/Crest/Crest/Materials/Ocean_UnderwaterCurtain.mat
-  artifactKey: Guid(82d5d473c6433b64593554cc15f927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/Ocean_UnderwaterCurtain.mat using Guid(82d5d473c6433b64593554cc15f927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Underwater Curtain" requires a ComputeBuffer at index 6 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: 'f34eec14c973d06ea8df90bd38fd26a3') in 0.246067792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Orbs/Material/Orb-4-1/Orb.mat
-  artifactKey: Guid(d44f794b487b07d4b96576d873e3cd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-4-1/Orb.mat using Guid(d44f794b487b07d4b96576d873e3cd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e3b1ba62e8f9d003bf775c14a6c15ad') in 0.004940458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.179872 seconds.
-  path: Assets/Orbs/Material/Orb-4-2/Orb.mat
-  artifactKey: Guid(a9a856b536bfd6b4dbde7d0950adf73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-4-2/Orb.mat using Guid(a9a856b536bfd6b4dbde7d0950adf73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46d5051d815c4c551379c58c5a667e57') in 0.005805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.983643 seconds.
-  path: Assets/Orbs/Material/Orb-7-1/Orb-Mat.mat
-  artifactKey: Guid(0f5aba55b41009d428be05ed11920947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-7-1/Orb-Mat.mat using Guid(0f5aba55b41009d428be05ed11920947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '963efe1522a335883d961788df69359a') in 0.007829375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035596 seconds.
-  path: Assets/Orbs/Material/Orb-7-2/Orb-Mat3.mat
-  artifactKey: Guid(20e0cca7aa9828f42b5ec86eeac7b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-7-2/Orb-Mat3.mat using Guid(20e0cca7aa9828f42b5ec86eeac7b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f7a5326a35f6ab8e85a77f5450ac293') in 0.005315 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018647 seconds.
-  path: Assets/Orbs/Material/Orb-2-2/Orb-Text 1.mat
-  artifactKey: Guid(fc5f5ac09af31ef4791b91c8e22d3e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-2-2/Orb-Text 1.mat using Guid(fc5f5ac09af31ef4791b91c8e22d3e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65fe0f83ad8b8fdde7c27918617e7d80') in 0.005605041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051185 seconds.
-  path: Assets/Orbs/Material/Orb-10-2/OrbTexture 1.mat
-  artifactKey: Guid(b01a5b90ca5562844aba6f7b223c589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-10-2/OrbTexture 1.mat using Guid(b01a5b90ca5562844aba6f7b223c589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9d0fcd7cc29be1fc4d317f5d7ec8a1a') in 0.00606525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066290 seconds.
-  path: Assets/Orbs/Material/Orb-10-1/OuterGlow.mat
-  artifactKey: Guid(b4fe688d7aa8ce64cb25b30281c271c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-10-1/OuterGlow.mat using Guid(b4fe688d7aa8ce64cb25b30281c271c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c383ae74e19030fec82673ead19af64') in 0.005339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.153820 seconds.
-  path: Assets/Orbs/Material/Orb-10-2/OuterGlow 1.mat
-  artifactKey: Guid(edc4482beec89ed4597782d361b7861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-10-2/OuterGlow 1.mat using Guid(edc4482beec89ed4597782d361b7861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1466abe4a911d24aeef6a47596f14d70') in 0.005337291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.386906 seconds.
-  path: Assets/Orbs/Material/Orb-7-2/OuterRing 1.mat
-  artifactKey: Guid(d7075e58ad72c1844b01979fa220b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-7-2/OuterRing 1.mat using Guid(d7075e58ad72c1844b01979fa220b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '017916572ce54bfdebc94ea991db6490') in 0.005141375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084817 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat
-  artifactKey: Guid(c10b1630d5621ec48a17223c3c102023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat using Guid(c10b1630d5621ec48a17223c3c102023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52f21b38691b43995e230b771b243ceb') in 0.055872709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat
-  artifactKey: Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat using Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe56bcfefb4d8591e304d45efde53d62') in 0.05748925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031857 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Platform_Skull_Emissive.mat
-  artifactKey: Guid(dcbf35daa84d31d46af8a5b2a6183db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Platform_Skull_Emissive.mat using Guid(dcbf35daa84d31d46af8a5b2a6183db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdb94ce60650d03280ae6de481092a10') in 0.3168205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.489662 seconds.
-  path: Assets/Samples/XR Hands/1.6.1/HandVisualizer/Materials/Red.mat
-  artifactKey: Guid(55fa12dc7870f1e46b6a7f8617949a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.6.1/HandVisualizer/Materials/Red.mat using Guid(55fa12dc7870f1e46b6a7f8617949a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7070f2fd1cab9ba361627618a64ca799') in 0.0054015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.224522 seconds.
-  path: Assets/Orbs/Material/Orb-6-2/Rings 3.mat
-  artifactKey: Guid(319ddcb386ec43346bd79250da144d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-6-2/Rings 3.mat using Guid(319ddcb386ec43346bd79250da144d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '538bc623e0f7e18e851e04a05d6c858d') in 0.005636792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Sardine/Materials/sardinetransparent.mat
-  artifactKey: Guid(b366156c3cdef488ca295f60bc3ec327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sardine/Materials/sardinetransparent.mat using Guid(b366156c3cdef488ca295f60bc3ec327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '226b15afcb09c8279c8869b4784d70cc') in 0.377645 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.257625 seconds.
-  path: Assets/seaShell/materials/HDRP/seaShell.mat
-  artifactKey: Guid(8776b679a91a8f64e96bf81216c1c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seaShell/materials/HDRP/seaShell.mat using Guid(8776b679a91a8f64e96bf81216c1c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64a32b64fe2cbd54fdeca943d5358f0c') in 0.054447291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007914 seconds.
-  path: Assets/seaShell/materials/URP/seaShell.mat
-  artifactKey: Guid(1de39bcc4d71d204f9f1002f25953617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seaShell/materials/URP/seaShell.mat using Guid(1de39bcc4d71d204f9f1002f25953617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '997f38375210f33b8e87f7c24f53e36a') in 0.067686583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Crest/Crest/Materials/OceanInputs/ShadowOverride.mat
-  artifactKey: Guid(6dfb3029d5c5f426f8a254f93efe9b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/OceanInputs/ShadowOverride.mat using Guid(6dfb3029d5c5f426f8a254f93efe9b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fafec443be3dd739367f6f4e73dad79d') in 0.01148025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024978 seconds.
-  path: Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Materials/SkyboxHorizon_Mat.mat
-  artifactKey: Guid(1a2b9cdb7c003454785f9381181bce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Materials/SkyboxHorizon_Mat.mat using Guid(1a2b9cdb7c003454785f9381181bce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbf0b452abfa93ddb1ed05671248eea7') in 0.324653083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.204238 seconds.
-  path: Assets/Orbs/Material/Orb-8-2/Sphere 1.mat
-  artifactKey: Guid(ce042d7e13bff5447ace3acab6144b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-8-2/Sphere 1.mat using Guid(ce042d7e13bff5447ace3acab6144b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8253d7e77e5d2f63af9bbbf53470569') in 0.00412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Sat Productions/G-01/Street Lights Pack 01/Scenes/Demo/Materials/Stand.mat
-  artifactKey: Guid(a6f6dc4413327f74b894fdb89e4a2f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sat Productions/G-01/Street Lights Pack 01/Scenes/Demo/Materials/Stand.mat using Guid(a6f6dc4413327f74b894fdb89e4a2f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6120e96c511b0005fb232c152bb177c1') in 0.00502075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.194199 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Stone_B.mat
-  artifactKey: Guid(8786ddb73d132334086ec1a9f1871797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Stone_B.mat using Guid(8786ddb73d132334086ec1a9f1871797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e41f760d06435d640934470df17a63e') in 0.311655084 seconds
+  Time since last request: 0.000058 seconds.
+  path: Assets/Backup-Ocean-Underwater 1.mat
+  artifactKey: Guid(ac5e974102f6f0240aede5f9331b9cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backup-Ocean-Underwater 1.mat using Guid(ac5e974102f6f0240aede5f9331b9cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af41ed0096814839cc7a799806395519') in 0.4697178 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Materials/TerrainLit.mat
-  artifactKey: Guid(0b6d251ba3ab07a45beb3c4a6ac4b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Materials/TerrainLit.mat using Guid(0b6d251ba3ab07a45beb3c4a6ac4b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '521f8802c45707bb1d548007c788b817') in 0.342159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 141.946772 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/main.unity
+  artifactKey: Guid(831b08ead2995f8419a358cd5da15916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/main.unity using Guid(831b08ead2995f8419a358cd5da15916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98da937c79663814d9083cc847df6a61') in 0.0007859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.210911 seconds.
-  path: Assets/tex_u1_v1.mat
-  artifactKey: Guid(883f25f694092974899687170806c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_u1_v1.mat using Guid(883f25f694092974899687170806c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6b78198f692a6555e8c7d73e398ae9e') in 0.062358333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077059 seconds.
-  path: Assets/Orbs/Material/Orb-9-1/ThirdTrail.mat
-  artifactKey: Guid(c61d6ff98d523db4390e0195a0e9aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-9-1/ThirdTrail.mat using Guid(c61d6ff98d523db4390e0195a0e9aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'effb965e8c0f7546cf944612c6297b9b') in 0.006669375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.174695 seconds.
-  path: Assets/Orbs/Material/Orb-9-1/Trail Line.mat
-  artifactKey: Guid(4abee92765955484cba88e8b84953738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs/Material/Orb-9-1/Trail Line.mat using Guid(4abee92765955484cba88e8b84953738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f8fbc6119a7d0776fd25981bd28558d') in 0.007078292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.706265 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/TunnelingVignette/TunnelingVignette.mat
-  artifactKey: Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/TunnelingVignette/TunnelingVignette.mat using Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad45620fca03ceb364e8920fdb08a7c0') in 0.012922084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044122 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/TunnelingVignette/TunnelingVignetteSG.shadergraph
-  artifactKey: Guid(c109fab5d2bf5f64598ed69d2c16ceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/TunnelingVignette/TunnelingVignetteSG.shadergraph using Guid(c109fab5d2bf5f64598ed69d2c16ceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd1df2c6b27580fd882e0bd9bebc2e9d') in 0.010771792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027527 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/Materials/Unity_Hand_Dark.mat
-  artifactKey: Guid(c1c1d86181c00bf4dabbad3ca0b191e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/Materials/Unity_Hand_Dark.mat using Guid(c1c1d86181c00bf4dabbad3ca0b191e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9500659cd7f96cb4c0a040f836436f60') in 0.261596291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008758 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat
-  artifactKey: Guid(61d033f3a51f40647a5458ea14f3b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat using Guid(61d033f3a51f40647a5458ea14f3b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f621ca40553155603357b5659e86e694') in 0.007155916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.373130 seconds.
-  path: Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryAdd.mat
-  artifactKey: Guid(41078fd973318c640a63c0698bbcdad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryAdd.mat using Guid(41078fd973318c640a63c0698bbcdad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Set Base Water Height Using Geometry" requires a ComputeBuffer at index 3 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: '831c72a20a37d2f65ec8e8ed89dfa188') in 0.036684917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 223.016256 seconds.
-  path: Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryRemove.mat
-  artifactKey: Guid(34136ec51ee03784e9b70e36afe94f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryRemove.mat using Guid(34136ec51ee03784e9b70e36afe94f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Push Water Under Convex Hull" requires a ComputeBuffer at index 3 to be bound, but none provided. Skipping draw calls to avoid crashing.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: '2f65433415a16a8d79f5244e6d2e4a31') in 0.015205458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerFront.mat
-  artifactKey: Guid(782a3fbdecc34e14796b312a6ab45da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerFront.mat using Guid(782a3fbdecc34e14796b312a6ab45da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '113ab6a2bee12dd63b03be5a9bbd1289') in 0.016774375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Crest/Crest/Materials/OceanInputs/WaterLevelFromGeometry.mat
-  artifactKey: Guid(6275fa852a7f1435fa7570404bae86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterLevelFromGeometry.mat using Guid(6275fa852a7f1435fa7570404bae86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f3eb1c9a1970a2c0fdad2054dda97ff') in 0.007755208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatProbes.mat
-  artifactKey: Guid(a55f4cbb3148e084ab46fb8abd549665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatProbes.mat using Guid(a55f4cbb3148e084ab46fb8abd549665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a277d24964664f7e579a8f6f731ee1a') in 0.003879459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Wax_A.mat
-  artifactKey: Guid(d353da5e3b889f1488c11eede03fe5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Wax_A.mat using Guid(d353da5e3b889f1488c11eede03fe5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48f0a63b0793ed396fdd539943b51b0a') in 0.004806666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatAlignNormalFront.mat
-  artifactKey: Guid(c1eb396e3637d6147bfc5409e8f1f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatAlignNormalFront.mat using Guid(c1eb396e3637d6147bfc5409e8f1f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '373c8cfd73be0f089df2ae5357da49d3') in 0.004026542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074467 seconds.
-  path: Assets/Crest/Crest-Examples/Shared/Materials/White.mat
-  artifactKey: Guid(4d86ba26ab6f348dd899f0320d78bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Shared/Materials/White.mat using Guid(4d86ba26ab6f348dd899f0320d78bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e12d3bb63bd9557952a5f74a928b9030') in 0.004962042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Wood_C.mat
-  artifactKey: Guid(29d542ef6c7bb7043b5cbc78cecd341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Wood_C.mat using Guid(29d542ef6c7bb7043b5cbc78cecd341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9cadb5a153a23619018a3ae351a67df') in 0.004694666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Wood_B.mat
-  artifactKey: Guid(63eafa80df395e4448aa0c38799a7b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials/Wood_B.mat using Guid(63eafa80df395e4448aa0c38799a7b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bc43c5e6159e444732ebef1a2428e3f') in 0.004712875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
